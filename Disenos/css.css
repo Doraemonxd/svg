@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+}
+body {
+    height: 100%;
+    background-color: orangered;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+  }
+.pla1{
+    float: left;
+    width: 50%;
+    height: 100vh;
+    
+}
+
+.botoncito{
+    position: relative;
+width: 100px;
+height: 25px;
+background-color: aquamarine;
+border-radius: 20px;
+position: relative;
+left: 1400px;
+bottom: 450px;
+transition: all 0.5s;
+}
+
+.botoncito a{
+    text-align: justify;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    margin-left: 10px;
+    top: 2px;
+}
+
+.botoncito:hover{
+    transform: translate(-15px);
+    background-color: azure;
+}
+
+.botoncito a:hover{
+    color: blue;
+}
